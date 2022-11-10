@@ -5,7 +5,7 @@ if(!isset($_COOKIE['userid'])or !isset($_COOKIE['userpass'])){
 }
 //로그인 되었을 경우
 //~~님 반갑습니다 출력
-$userid=$_COOKIE['userid'];
+$_userid=$_COOKIE['userid'];
 $_passwd=$_COOKIE['userpass'];
 
 echo "<p>".$_userid."님 반갑습니다</p>";
